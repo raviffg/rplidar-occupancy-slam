@@ -1,0 +1,16 @@
+build/
+*.o
+*.a
+*.so
+*.pgm
+*.png
+*.bag
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+compile_commands.json
