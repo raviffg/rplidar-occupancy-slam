@@ -25,10 +25,3 @@ ICP is brute force over decimated clouds (~400 pts). Fine at 5 Hz on the
 Jetson; a kd-tree is not worth the dependency yet. Scan-to-map matching is not
 implemented, so the map smears once odometry drift passes roughly 0.3 m.
 Reflective surfaces and the vest rack produce the usual ghost arcs.
-
-
-## Expanded project documentation
-
-The `docs/` directory contains project-specific design notes, verification scenario specifications, operations guides, data contracts, configuration templates, safety notes, and project reference templates.
-
-**Important:** added documents are planning and review aids. They do not claim that tests have been executed, that placeholder configurations are supported runtime profiles, or that this project is certified for physical/clinical/production deployment. Confirm interfaces and limits against implementation and measured evidence.
